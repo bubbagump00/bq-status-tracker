@@ -82,7 +82,7 @@ class VerseCalculator extends React.Component {
       <header className="App-header">
         <CalculatorResultLogo numVersesMemorized={numVersesMemorized} />
         <br />
-        <p>You need to memorize {numVersesToQualify} verses by {qualifyDate} to qualify for the next tournament.</p>
+        <h5>You need to memorize 130 verses by January 19, 2020 to qualify for the next tournament.</h5>
         <div>
           <fieldset>
             <legend>Enter the number of verses you have already memorized:</legend>
